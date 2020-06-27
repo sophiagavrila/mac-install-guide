@@ -111,7 +111,7 @@ To install **Maven** with Homebrew, open your terminal window and run: <code>bre
 
 Once the download is complete, verify the installation by running: <code>mvn -v</code>
 
-### Step 6: Install DBeaver
+## Step 6: Install DBeaver
 
 Navigate to https://dbeaver.io/download/ and download the appropriate version of DBeaver.
 
