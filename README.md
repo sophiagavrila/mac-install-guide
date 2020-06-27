@@ -4,7 +4,7 @@
 
 A *package manager* is a command line tool that allows you to install and manage software. You can use a package manager to install all of the software listed here.
 
-The package manager that we'll be using for this guide is called Homebrew. It's a command-line installer for MacOs, which means that you'll have to be running a macOS in order to use. The examples provided here are utilizing macvscodeOS Catalina version 10.15.5.
+The package manager that we'll be using for this guide is called Homebrew. It's a command-line installer for MacOS, which means that you'll have to be running a macOS in order to use. The examples provided here are utilizing macvscodeOS Catalina version 10.15.5.
 
 ## Step 1: Install Homebrew
 
