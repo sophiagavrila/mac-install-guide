@@ -39,7 +39,7 @@ Once <code>cleanup</code> is finished, type the following command into the termi
 
 ### Configure your Environment Variables
 #### A. Mac OSX 10.5 or later:
-In Mac OSX 10.5 or later, Apple recommends to set the <code>$JAVA_HOME</code> variable to <code>/usr/libexec/java_home</code>, just export <code>$JAVA_HOME</code> in file <code>~/. bash_profile</code> or <code>~/.profile</code>.
+In Mac OSX 10.5 or later, Apple recommends to set the <code>$JAVA_HOME</code> variable to <code>/usr/libexec/java_home</code>, just export <code>$JAVA_HOME</code> in file <code>~/. bash_profile</code> or ~<code>/.profile</code>.
 
 ```code
 $ vim .bash_profile
