@@ -1,4 +1,4 @@
-# mac-install-guide
+# Mac Java Environment Setup Guide
 
 ## Install Using A Package Manager
 
