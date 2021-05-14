@@ -126,9 +126,9 @@ The following is the single command required to install Postman on macOS using H
 
 <code>brew cask install postman</code>
 
-## Step 9: Install PostgreSQL
+## Step 9: Install PostgreSQL 13
 
-We will manually download the PostgreSQL installer visiting the official website. Look at the row for **version 10.13**.
+We will manually download the PostgreSQL installer visiting the official website. Look at the row for **version 13.x**.
 
 Select the download link which corresponds with your system and click it.
 
