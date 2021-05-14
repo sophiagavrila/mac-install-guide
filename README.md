@@ -27,7 +27,7 @@ To verify that Git is installed on your system, type <code>git --version</code>
 
 ## Step 3: Install JDK 8
 
-<code>brew install adoptopenjdk/openjdk/adoptopenjdk8</code>
+In your terminal run: <code>brew install adoptopenjdk/openjdk/adoptopenjdk8</code>
 
 
 ### Configure your Environment Variables
