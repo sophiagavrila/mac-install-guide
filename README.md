@@ -36,7 +36,7 @@ brew cleanup
 
 Once <code>cleanup</code> is finished, type the following command into the terminal:
 
-<code>brew cask install adoptopenjdk/openjdk/adoptopenjdk8</code>
+<code>brew install adoptopenjdk/openjdk/adoptopenjdk8</code>
 
 
 ### Configure your Environment Variables
