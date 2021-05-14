@@ -11,7 +11,9 @@ The package manager that we'll be using for this guide is called Homebrew. It's 
 
 <img src="./images/brew-1.png" width="500"/>
 
-Open your terminal and type <code>brew</code>.
+Open your terminal and run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+Then run `brew`.
 
 The result should look like the following:
 
