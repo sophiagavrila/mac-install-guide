@@ -27,15 +27,6 @@ To verify that Git is installed on your system, type <code>git --version</code>
 
 ## Step 3: Install JDK 8
 
-Run the following commands in your terminal:
-```code
-brew untap adoptopenjdk/openjdk
-brew untap caskroom/versions
-brew cleanup
-```
-
-Once <code>cleanup</code> is finished, type the following command into the terminal:
-
 <code>brew install adoptopenjdk/openjdk/adoptopenjdk8</code>
 
 
