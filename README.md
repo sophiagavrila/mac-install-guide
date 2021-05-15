@@ -35,12 +35,22 @@ In your terminal run: <code>brew install adoptopenjdk/openjdk/adoptopenjdk8</cod
 In Mac OSX 10.5 or later, Apple recommends to set the <code>$JAVA_HOME</code> variable to <code>/usr/libexec/java_home</code>, just export <code>$JAVA_HOME</code> in file <code>~/. bash_profile</code> or ~<code>/.profile</code>.
 
 ```code
+# This will open up a text editor called vim
 $ vim .bash_profile
 
+# Inside the text editor, write this
 export JAVA_HOME=$(/usr/libexec/java_home)
 
+# To quit vim and save your changes:
+# 1. press the ESC key
+# 2. You should see the ––INSERT–– label vanish from the lower-left.
+# 3. To save your changes before you exit, type :w , and then Enter. This will save any changes made. 
+#       Vim will respond by outputting the filename, whether it’s new, and how many characters were written to the hard drive.
+
+# Next, execute the file you created
 $ source .bash_profile
 
+# Confirm that the path variable has been set
 $ echo $JAVA_HOME
 /Library/Java/JavaVirtualMachines/1.8.0.jdk/Contents/Home
 ```
