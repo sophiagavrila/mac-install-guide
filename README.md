@@ -6,8 +6,9 @@ A *package manager* is a command line tool that allows you to install and manage
 
 The package manager that we'll be using for this guide is called Homebrew. It's a command-line installer for MacOS, which means that you'll have to be running a macOS in order to use. The examples provided here are utilizing macvscodeOS Catalina version 10.15.5.
 
-## Step 1: Install Homebrew
+<br>
 
+## Step 1: Install Homebrew
 
 <img src="./images/brew-1.png" width="500"/>
 
@@ -24,6 +25,8 @@ The result should look like the following:
 With Homebrew installed, you are now ready to install Git. Open a terminal window and enter <code>brew install git</code>
 
 To verify that Git is installed on your system, type <code>git --version</code>
+
+<br>
 
 ## Step 3: Install JDK 8
 
@@ -55,6 +58,8 @@ $ echo $JAVA_HOME
 /Library/Java/JavaVirtualMachines/1.8.0.jdk/Contents/Home
 ```
 
+<br>
+
 #### B. Older Mac OSX:
 For older Mac OSX, the <code>/usr/libexec/java_home</code> doesn’t exist, so, you should set <code>JAVA_HOME</code> to the fixed path:
 
@@ -69,6 +74,7 @@ $ echo $JAVA_HOME
 /System/Library/Java/JavaVirtualMachines/1.8.0.jdk/Contents/Home
 ```
 
+<br>
 
 ## Step 4:  Install Spring Tool Suite 4
 
@@ -108,11 +114,15 @@ You should now see this:
 
 <img src="./images/sts-6.png" width="500"/>
 
+<br>
+
 ## Step 5: Install Maven
 
 To install **Maven** with Homebrew, open your terminal window and run: <code>brew install maven</code> 
 
 Once the download is complete, verify the installation by running: <code>mvn -v</code>
+
+<br>
 
 ## Step 6: Install DBeaver
 
@@ -120,8 +130,12 @@ Navigate to https://dbeaver.io/download/ and download the appropriate version of
 
 If your installation was successful, you should now be able to search for "dbeaver" in your spotlight with <code>cmd + space</code>.
 
+<br>
+
 ## Step 7: Install Apache Tomcat 8
 Follow these [instructions](https://medium.com/@jeongwhanchoi/how-to-install-apache-tomcat-on-mac-os-x-605b1cb55252).  The author has downloaded Apache Tomcat 9.  You will download Apache Tomcat **8** and follow the exact same steps and terminal commands.
+
+<br>
 
 ## Step 8: Install Postman
 
@@ -150,5 +164,22 @@ After you've decided on a password, click <code>Next</code> on the remaining men
 Once the installation is complete, you might be asked if you want to launch Stack Builder. You can say <code>no</code>.
 
 PostgreSQL should now be successfully installed on your computer.
+
+<br>
+
+## Step 10: Install Docker
+Docker is an open source containerization platform. It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
+
+Go [here to download Docker Desktop](https://www.docker.com/products/docker-desktop) 👈
+
+<br>
+
+Additional Resources
+====================
+
+*  **Git Cheat Sheet** (This is a GitHub-provided cheat sheet for some simple Git commands.): https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+*  **Java Docs** (The official API specification for Java 8): https://docs.oracle.com/javase/8/docs/api/
+*  **Maven Repository** (This provides a repository of dependencies which we can add to our Project Object Models): https://mvnrepository.com/
+*  **PostgreSQL Docs** (This is PostgreSQL's official documentation.): https://www.postgresql.org/docs/
 
 
