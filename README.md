@@ -157,7 +157,7 @@ You'll be presented with several menus in the Setup Wizard.  Click <code>Next</c
 
 Here, you'll want to select and/or deselect the following and then click <code>Next</code>:
 
-Continue to click <code>Next</code> until you reach the **Password** menu. Here you will create a password for the default Postgres user (which is <code>postgres</code>). The password is completely up to you. That said, *DO NOT* forget your password as you won't be able to login to your database as the superuser.
+Continue to click <code>Next</code> until you reach the **Password** menu. Here you will create a password for the default Postgres user (which is <code>postgres</code>). **DO NOT use a password you use anywhere else.  I reccomend making the password `postgres`.** *DO NOT* forget your password as you won't be able to login to your database as the superuser.
 
 After you've decided on a password, click <code>Next</code> on the remaining menus and allow time for Postgres to be installed. 
 
